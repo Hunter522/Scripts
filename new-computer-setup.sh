@@ -9,7 +9,7 @@ apt-get upgrade && apt-get dist-upgrade
 INSTALL=apt-get -y install
 
 # Packages/Libraries
-$INSTALL build-essential python2.7 python2.7-dev git cmake
+$INSTALL build-essential python2.7 python2.7-dev git cmake python-pip
 $INSTALL openjdk-8-jdk
 $INSTALL p7zip-full
 $INSTALL mesa-common-dev libgl-dev 
@@ -23,9 +23,10 @@ $INSTALL meld
 $INSTALL grsync
 $INSTALL cairo-dock
 $INSTALL dconf-editor
+$INSTALL vlc
 
 # Installing cinnamon desktop?
-$INSTALL cinnamon
+#$INSTALL cinnamon
 # For cpu applet in cinnamon bar
-$INSTALL gir1.2-gtop-2.0
+#$INSTALL gir1.2-gtop-2.0
 
