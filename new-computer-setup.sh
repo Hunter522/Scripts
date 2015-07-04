@@ -15,6 +15,9 @@ $INSTALL p7zip-full
 $INSTALL mesa-common-dev libgl-dev 
 $INSTALL arduino arduino-core
 
+# Configuration
+#printf "\n/usr/lib\n/usr/local/lib\n" >> /etc/ld.so.conf
+
 # Applications
 $INSTALL terminator
 $INSTALL chromium-browser
